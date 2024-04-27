@@ -84,7 +84,6 @@ grid-template-columns: 10% 10%;
 }
 /* ----------item-4------------------- */
 .item-4 {
-  /* background-color: yellow; */
   grid-area: item-4;
 
 }
@@ -116,7 +115,6 @@ color: var(--color);
 .item-5 .card p#demo{
   border-radius: 36%;
   width: 35%;
-  /* background-color: #8166b004; */
   border-color: #8166B0;
   background-color: #6d48adda;
   font-size: 13px;
@@ -127,6 +125,7 @@ color: var(--color);
 }
 .item-5 .card{
   background-color: #8166B0;
+  border: #8166B0;
 }
 .item-5 .card p#demo-2{
   letter-spacing: 2px;
@@ -142,7 +141,6 @@ color: var(--color);
 }
 /* --------------------item-6------------------- */
 .item-6 {
-  /* background-color: blue; */
   grid-area: item-6;
 }
 .item-6 a{
