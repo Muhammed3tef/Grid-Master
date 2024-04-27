@@ -1,0 +1,228 @@
+body {
+  margin: 0;
+}
+* {
+  box-sizing: border-box;
+}
+:root{
+    --fonts:font-family: "Montserrat", sans-serif;
+    --font-arvo:  "Arvo", serif;
+    --color:#9FA3A7;
+}
+.parent {
+  display: grid;
+  height: 100vh;
+grid-template-columns: 10% 10%;
+  grid-template-areas:
+    "item-1 item-1 item-1 item-1 item-1 item-1 item-2 item-2 item-2 item-2 item-2 item-2"
+    "item-3 item-3 item-4 item-4 item-4 item-4 item-4 item-4 item-4 item-5 item-5 item-5"
+    "item-6 item-6 item-7 item-7 item-7 item-7 item-7 item-7 item-7 item-5 item-5 item-5"
+    "item-8 item-8 item-9 item-9 item-10 item-10 item-10 item-10 item-10 item-10 item-10 item-10 ";
+}
+.item-1 {
+  grid-area: item-1;
+  
+}
+.item-1 .content{
+    width: 30%;
+    line-height: 1.5;
+    position: relative;
+  top: 10%;
+
+}
+.item-1 h2{
+    font-family: var(--fonts);
+    font-size: 12px;
+    color: #9FA3A7;
+}
+.item-1 .hamada{
+  width: 27%;
+  position: relative;
+  left: 5%;
+  top: 3.1%;
+}
+.item-1 p{
+    font-family: var(--font-arvo);
+    font-size: 20px;
+}
+.item-1  .hambozo{
+  font-size: 12px;
+  color: var(--color);
+}
+/* --------------item-2--------------- */
+.item-2 {
+  background-color: #F7F8F9;
+  grid-area: item-2;
+  padding:20px
+}
+.item-2 h2{
+  color: var(--color);
+  font-family: var(--fonts);
+}
+.item-2 p{
+  font-family: var(--font-arvo);
+}
+.item-2 a{
+  color: #8ED8DD;
+}
+/* ----------------item-3------------------- */
+.item-3 {
+  background-color: #F05638;
+  grid-area: item-3;
+}
+.item-3 .hambozo-2 span{
+  text-align: center;
+  margin-left: 5px;
+}
+.item-3 .hambozo-2 {
+  letter-spacing: 2px;
+  color: #FFC80A;
+  font-size: 12px;
+}
+.item-3 h2{
+  font-family: var(--font-arvo);
+}
+/* ----------item-4------------------- */
+.item-4 {
+  /* background-color: yellow; */
+  grid-area: item-4;
+
+}
+.item-4 .photo{
+  width: 50%;
+  right: 18%;
+}
+.item-4 .content-left h2{
+color: var(--color);
+}
+.item-4 .content-left p{
+  font-family: var(--font-arvo);
+}
+.item-4 .content-right p{
+color: var(--color);
+}
+.item-4 .content-right a{
+  color: #27B9C4;
+}
+/* ------item-5------------------- */
+.item-5 {
+  background-color: #8F76BC;
+  grid-area: item-5;
+}
+.item-5 .card img{
+  position: relative;
+  left: 4%;
+}
+.item-5 .card p#demo{
+  border-radius: 36%;
+  width: 35%;
+  /* background-color: #8166b004; */
+  border-color: #8166B0;
+  background-color: #6d48adda;
+  font-size: 13px;
+  letter-spacing: 2px;
+}
+.item-5 .card p#demo i#demo-1{
+ color: #FFC80A;
+}
+.item-5 .card{
+  background-color: #8166B0;
+}
+.item-5 .card p#demo-2{
+  letter-spacing: 2px;
+}
+.card-content button#demo-3{
+  border: #FFC80A;
+  border-top-left-radius: 100vh;
+  border-top-right-radius: 100vh;
+  border-bottom-left-radius: 100vh;
+  border-bottom-right-radius: 100vh;
+  letter-spacing: 2px;
+  font-size: 13px;
+}
+/* --------------------item-6------------------- */
+.item-6 {
+  /* background-color: blue; */
+  grid-area: item-6;
+}
+.item-6 a{
+  letter-spacing: 2px;
+  color:#49B9C2;
+}.item-6 .play-content h2{
+  font-family: var(--font-arvo);
+}
+/* -------------------------item-7----------------------- */
+.item-7 {
+  background-image: url(../picture/ux.png);
+  background-color: #93B6B7;
+  background-position: center;
+  background-size: cover;
+  grid-area: item-7;
+}
+.item-7 img#demo-7{
+  position: relative;
+  right: 10%;
+}
+.item-7 p#demo-7-tow{
+  background-color: #FA684F;
+  border: #FFC80A;
+  width: fit-content;
+  border-top-left-radius: 100vh;
+  border-top-right-radius:100vh ;
+  border-bottom-left-radius:100vh ;
+  border-bottom-right-radius:100vh ;
+  position: relative;
+  top: 5%;
+  left: 5%;
+  font-size: 10px;
+}
+/* ------------item-8--------------------- */
+.item-8 {
+  background-color: #38D5F4;
+  grid-area: item-8;
+}
+.item-8 div.b-8{
+  position: relative;
+border:2px solid #35CFED;
+background-color: #35CFED;
+border-radius: 50%;
+padding: 20%;
+}
+.item-8 div.b-8 h2{
+  font-family: var(--font-arvo);
+}
+.item-8 div#demo-8 img{
+  width: 50px;
+}
+
+/* ----------------item-9----------------- */
+.item-9 {
+  grid-area: item-9;
+}
+.item-9 .item-content{
+  position: relative;
+  top: 33%;
+}
+.item-9 .item-content p{
+  border:2px solid #7BC424;
+  border-radius: 30%;
+  padding-inline: 5%;
+  font-size: 13px;
+  background-color: #7BC424;
+}.item-9 .item-content h2{
+  font-family: var(--font-arvo);
+}
+/* -------------------item-10---------------------- */
+.item-10 {
+  background-color: #2C2C2C;
+  grid-area: item-10;
+}
+.item-10 .item-left{
+  position: relative;
+  right: 10%;
+  width: 30%;
+}
+.item-10 .item-right h2{
+  font-size: 20px;
+  font-family: var(--font-arvo);
+}
